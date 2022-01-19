@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+li {
+    list-style-type: circle;
+}
+a {
+    color: cyan;
+}
+a:hover {
+    color: darkcyan;
+}
+
+
