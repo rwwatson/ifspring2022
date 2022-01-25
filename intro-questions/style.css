@@ -4,6 +4,11 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 li {
+    font-size: 1.2em;
+}
+li:hover {
+    font-size: 1.8em;
+    cursor
 }
 a {
     color: cyan;
