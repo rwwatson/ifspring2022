@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#header {
+    width: 100%;
+    padding: 1em;
+    background-color: white;
+    color: black;
+}
+h1 {
+    font-size: 3.6em;
+    margin-left: 2em;
+}
+#leftText {
+    width: 50%;
+    float: left;
+}
+h2 {
+    font-size: 2.4em;
+    margin-left: 1em;
+}
+h3{
+    font-style: italic;
+    margin-left: 2em;
+}
+li {
+    font-size: 1.2em;
+    margin-left: 2em;
+}
+.peter {
+    color: red;
+}
+.ray {
+    color: lime;
+}
+.dana {
+    color: cyan;
+}
+.mayor {
+    color: orange;
+}
+.egon {
+    color: hotpink;
+}
+.winston {
+    color: dodgerblue;
+}
+#poster {
+    width: 40%;
+    float: right;
+    margin-right: 2em;
+    margin-top: 1em;
+}
+
+
