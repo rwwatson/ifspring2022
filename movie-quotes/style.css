@@ -13,7 +13,7 @@ h1 {
     font-size: 3.6em;
     margin-left: 2em;
 }
-#leftText {
+.leftText {
     width: 50%;
     float: left;
 }
@@ -30,26 +30,41 @@ span {
     padding-left: 2em;
     display: inline-block;
 }
-.peter {
-    color: red;
-}
-.peter:hover{
-    font-size: 1.6em;
-}
-.ray {
-    color: lime;
-}
-.dana {
+.peter:hover {
     color: cyan;
 }
-.mayor {
-    color: orange;
+.peter:hover ~ .peter {
+    color: cyan;
 }
-.egon {
-    color: hotpink;
+.ray:hover {
+    color: cyan;
 }
-.winston {
-    color: dodgerblue;
+.ray:hover ~ .ray {
+        color: cyan;
+}
+.dana:hover {
+    color: cyan;
+}
+.dana:hover ~ .dana{
+    color: cyan;
+}
+.mayor:hover {
+    color: cyan;
+}
+.mayor:hover ~ .mayor {
+    color: cyan;
+}
+.egon:hover {
+    color: cyan;
+}
+.egon:hover ~ .egon {
+    color: cyan;
+}
+.winston:hover {
+    color: cyan;
+}
+.winston:hover ~ .winston{
+    color: cyan;
 }
 #poster {
     width: 40%;
