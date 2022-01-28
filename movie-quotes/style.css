@@ -33,9 +33,9 @@ span {
 .peter {
     color: red;
 }
-/*.peter:hover {
+.peter:hover{
     font-size: 1.6em;
-}*/
+}
 .ray {
     color: lime;
 }
