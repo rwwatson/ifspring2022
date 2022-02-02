@@ -1,0 +1,91 @@
+html {
+    font-size: 24px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 5%;
+}
+section {
+    margin-bottom: 100px;
+}
+h1 {
+    font-size: 1.75rem;
+    margin-bottom: .4em;
+}
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: .4em;
+    color: grey;
+}
+h3 {
+    font-size: .6rem;
+    margin-bottom: .2em;
+    color: lightgray;
+    font-weight: 400;
+}
+p {
+    margin-top: 0;
+}
+.styled {
+    font-family: 'Raleway', sans-serif;
+}
+
+section.FontWeight p.normal {
+    font-weight: normal;
+}
+
+section.FontWeight p.bold {
+    font-weight: bold;
+}
+
+section.FontStyle p.normal {
+    font-style: normal;
+}
+
+section.FontStyle p.italic {
+    font-style: italic;
+}
+
+section.LetterSpacing p.normal {
+    letter-spacing: normal;
+}
+
+section.LetterSpacing p.wide {
+    letter-spacing: .3em;
+}
+
+section.LetterSpacing p.narrow {
+    letter-spacing: -.06em;
+}
+
+section.TextDecoration p.normal {
+    text-decoration: none;
+}
+
+section.TextDecoration p.underline {
+    text-decoration: underline;
+}
+
+section.TextDecoration p.linethrough {
+    text-decoration: line-through;
+}
+
+section.TextDecoration p.overline {
+    text-decoration: overline;
+}
+
+section.TextTransform p.normal {
+    text-transform: none;
+}
+
+section.TextTransform p.uppercase {
+    text-transform: uppercase;
+}
+
+section.TextTransform p.lowercase {
+    text-transform: lowercase;
+}
+
+section.TextTransform p.capitalize {
+    text-transform: capitalize;
+}
