@@ -1,0 +1,71 @@
+html {
+    background-color: #C5ABDE;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 1.2rem;
+}
+h1 {
+    width: 100%;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 3.6rem;
+    color: #DED99F;
+    background-color: #5B5A91;
+}
+h2 {
+    color: #5B5A91;
+}
+h3 {
+    color: #857791;
+}
+strong {
+    color: #5B5A91;
+}
+#noteCard {
+    width: 90%;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    padding-top: 0.25%;
+    padding-bottom: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    background-color: #DED99F;
+    border-radius: 25px;
+}
+#description {
+    width: 50%;
+    margin-right: 5%;
+    float: right;
+} 
+#coverImg {
+    width: 40%;
+}
+
+#textBlock {
+    width: 50%;
+    margin-top: 0.5%;
+    float: right;
+    margin-right: 5%;
+}
+#ingredients {
+    width: 60%;
+}
+#timingR {
+    margin-top: 2.5%;
+    width: 20%;
+    float: right;
+}
+#timingL {
+    margin-top: 2.5%;
+    width: 20%;
+    float: right;
+}
+#instructions {
+    width: 80%;
+    margin-left: 10%;
+}
+#instructions h3{
+    color: #5B5A91
+}
+.srcs {
+    width: 30%;
+}
