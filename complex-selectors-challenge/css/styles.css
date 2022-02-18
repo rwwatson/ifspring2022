@@ -27,9 +27,8 @@ img {
 .shows h1{
     border-top: solid 1px black;
 }
-nav .selected {
+.selected a{
     font-weight: bold;
-    border: solid 1px red;
     color: black;
 }
 .cast a :nth-child(n+2) {
