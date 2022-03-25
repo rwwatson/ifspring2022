@@ -1,0 +1,183 @@
+html {
+    background-color: #857791;
+    font-size: 1.4rem;
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    width: 100%;
+}
+#imgMobile {
+    width: 105%;
+    margin-left: -2.5%;
+    margin-top: -2.5%;
+}
+#imgDesktop {
+    display: none;
+}
+h1 {
+    text-align: center;
+    font-size: 7.2rem;
+    color: white;
+    font-weight: 900; 
+}
+#description {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    line-height: 45px;
+}
+#info {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+    margin-top: 2em;
+    background-color: #ded99f;
+    border-radius: 25px;
+    font-size: 1.4rem;
+}
+#timing {
+    width: 30%;
+    float: right;
+}
+#ingredients {
+    width: 60%;
+}
+#tips {
+    width: 75%;
+    background-color: #C5ABDE;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+    margin-top: 2em;
+    font-size: 1.4rem;
+    line-height: 45px;
+}
+#instructions {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+}
+#instructions h2 {
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: white;
+}
+#instructions h3 {
+    color: white;
+    font-size: 1.8rem;
+    margin-left: 1em;
+}
+.step {
+    margin-bottom: 3em;
+}
+.step ol {
+    background-color: #C5ABDE;
+    padding: 3em;
+    margin-top: 2em;
+    line-height: 45px;
+
+}
+#step4 ol {
+    background-color: #ded99f;
+}
+#step5 p {
+    padding: 3em;
+    background-color: #ded99f;
+    line-height: 45px;
+}
+.step img {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@media only screen and (min-width: 992px) {
+    html {
+        font-size: 1.0rem;
+    }
+    #imgMobile {
+        display: none;
+    }
+
+    #imgDesktop {
+        display: block;
+        width: 35%;
+        margin-top: -0.5em;
+    }
+    header {
+        width: 65%;
+        float: right;
+    }
+    h1 {
+        font-size: 4.8rem;
+    }
+    #info {
+        font-size: 1.0rem;
+    }
+    #instructions {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4em;
+    }
+    #tips {
+        width: 60%;
+        font-size: 1.0rem;
+        line-height: 25px;
+    }
+    .step {
+        background-color: #C5ABDE;
+        padding: 1em;
+    }
+    .step img {
+        width: 30%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .step ol {
+        width: 60%;
+        line-height: 25px;
+        padding: 2em;
+        margin-top: -10px;
+        background-color: none;
+    }
+    #step1 ol {
+        float: right;
+        margin-bottom: 1em;
+    }
+    #step2 ol {
+        float: left;
+    }
+    #step2 img {
+        margin-left: 2em;
+    }
+    #step2 ol {
+        margin-top: 1em;
+        margin-bottom: 3em;
+    }
+    #step3 ol {
+        float: right;
+        margin-top: 3em;
+        background-color: #ded99f;
+    }
+    #step3 {
+        background-color: #ded99f;
+    }
+    #step4 ol {
+        float: left;
+        margin-top: 3em;
+        background-color: #C5ABDE;
+    }
+    #step4 img {
+        margin-left: 2em;
+    }
+    #step5 p {
+        padding: 2em;
+        background-color: #C5ABDE;
+        line-height: 25px;
+    }
+
+}
