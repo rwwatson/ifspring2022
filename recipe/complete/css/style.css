@@ -17,8 +17,8 @@ header {
 h1 {
     text-align: center;
     font-size: 7.2rem;
-    color: white;
-    font-weight: 900; 
+    color: #ede7cb;
+    font-weight: 900;
 }
 #description {
     width: 80%;
@@ -33,7 +33,8 @@ h1 {
     margin-right: auto;
     padding: 2em;
     margin-top: 2em;
-    background-color: #ded99f;
+    /*background-color: #ded99f;*/
+    background-color: #ede7cb;
     border-radius: 25px;
     font-size: 1.4rem;
 }
@@ -63,10 +64,10 @@ h1 {
 #instructions h2 {
     font-size: 3.6rem;
     font-weight: 700;
-    color: white;
+    color: #ede7cb;
 }
 #instructions h3 {
-    color: white;
+    color: #ede7cb;
     font-size: 1.8rem;
     margin-left: 1em;
 }
@@ -80,12 +81,12 @@ h1 {
     line-height: 45px;
 
 }
-#step4 ol {
-    background-color: #ded99f;
+#step3 ol {
+    background-color: #ede7cb;
 }
 #step5 p {
     padding: 3em;
-    background-color: #ded99f;
+    background-color: #ede7cb;
     line-height: 45px;
 }
 .step img {
@@ -163,10 +164,10 @@ h1 {
     #step3 ol {
         float: right;
         margin-top: 3em;
-        background-color: #ded99f;
+        background-color: #ede7cb;
     }
     #step3 {
-        background-color: #ded99f;
+        background-color: #ede7cb;
     }
     #step4 ol {
         float: left;
@@ -176,9 +177,12 @@ h1 {
     #step4 img {
         margin-left: 2em;
     }
+    #step5 {
+        background-color: #ede7cb;
+    }
     #step5 p {
         padding: 2em;
-        background-color: #C5ABDE;
+        background-color: #ede7cb;
         line-height: 25px;
     }
 
