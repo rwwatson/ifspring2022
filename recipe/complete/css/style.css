@@ -101,7 +101,9 @@ h1 {
     #imgMobile {
         display: none;
     }
-
+    #description {
+        line-height: 25px;
+    }
     #imgDesktop {
         display: block;
         width: 35%;
