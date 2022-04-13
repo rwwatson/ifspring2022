@@ -1,0 +1,24 @@
+html {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    background-image: url("../bannner.jpg");
+    background-size: 150%;
+    overflow-x: scroll;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 3000px;
+    padding: 0;
+    margin: 0;
+}
+
+#stretch {
+    overflow-x: scroll;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
