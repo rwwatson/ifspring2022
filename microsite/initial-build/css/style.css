@@ -270,4 +270,7 @@ header img {
     #grid ul {
         grid-template-columns: 1fr 1fr;
     }
+    #grid li {
+        height: 60px;
+    }
 }
