@@ -143,7 +143,7 @@ header img {
 }
 #navButtons button {
     border: none;
-    background-color: #c9888c;
+    background-color: transparent;
     font-family: classico-urw-condensed, sans-serif;
     font-weight: 400;
     font-size: 2em;
